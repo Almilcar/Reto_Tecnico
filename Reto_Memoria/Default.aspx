@@ -13,5 +13,5 @@
         </asp:Repeater>
     </asp:Panel>
 
-    <asp:Button ID="btnReset" runat="server" Text="Reiniciar Juego" OnClick="btnReset_Click" CssClass="reset-button" />
+  <asp:Button ID="btnReset" runat="server" Text="Reiniciar Juego" OnClick="btnReset_Click" CssClass="reset-button" />
 </asp:Content>

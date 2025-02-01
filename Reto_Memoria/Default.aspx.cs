@@ -21,7 +21,7 @@ namespace Reto_Memoria
 
         private void StartGame()
         {
-            Cards = GenerateCards();
+            Cards = GenerateCards();  
             Session[SessionKey] = Cards;
             rptCards.DataSource = Cards;
             rptCards.DataBind();
@@ -41,6 +41,9 @@ namespace Reto_Memoria
                 new Card { ID = 3, ImagePath = "Images/img3.jpg" },
                 new Card { ID = 4, ImagePath = "Images/img4.jpg" },
                 new Card { ID = 1, ImagePath = "Images/img1.jpg" },
+                new Card { ID = 2, ImagePath = "Images/img2.jpg" },
+                new Card { ID = 3, ImagePath = "Images/img3.jpg" },
+                new Card { ID = 4, ImagePath = "Images/img4.jpg" },
             };
 
             return Shuffle(cards);
